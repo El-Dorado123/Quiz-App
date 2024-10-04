@@ -1,0 +1,29 @@
+.title{
+    text-transform: uppercase;
+    font-size: 5vw;
+    font-family: "Libre Baskerville",sens-serif;
+    cursor:pointer;
+    color: white;
+    margin-block: 10px;
+    border-radius: 5px;
+}
+
+.header{
+    background-color: #39445a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 1px 15px black;
+}
+.divider{
+    height: 4px;
+    box-shadow: 0 -5 10px black;
+    width: 100%;
+    background-color: #223049;
+}
+
+@media (max-width: 800px) {
+    .title{
+        font-size: 6vw;
+    }
+}
